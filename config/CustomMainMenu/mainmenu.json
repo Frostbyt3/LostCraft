@@ -1,0 +1,272 @@
+{
+
+	"images":
+	{
+		"title":
+		{
+			"image": "mainmenu:lostcraft2.png",
+			"posX": 15,
+			"posY": 50,
+			"width": 150,
+			"height": 33,
+			"alignment": "top_left",
+			"imageWidth": "469",
+			"imageHeight": "103"
+		},
+		"blackbar":
+		{
+			"image": "mainmenu:blackbar.png",
+			"posX": 0,
+			"posY": 85,
+			"width": 175,
+			"height": 200,
+			"alignment": "top_left",
+			"imageWidth": "100",
+			"imageHeight": "100"
+		}
+	},
+
+  "buttons": {
+    "singleplayer": {
+      "text": "§l§oSingleplayer",
+      "posX": 15,
+      "posY": 100,
+      "width": 98,
+      "height": 20,
+      "shadow": true,
+      "normalTextColor": 14737632,
+	  "hoverTextColor": 16777120,
+      "alignment": "top_left",
+      "texture": "mainmenu:clearbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "singleplayer"
+      }
+    },
+    "multiplayer": {
+      "text": "§l§oMultiplayer",
+      "posX": 15,
+      "posY": 125,
+      "width": 98,
+      "height": 20,
+      "shadow": true,
+      "normalTextColor": 14737632,
+	  "hoverTextColor": 16777120,
+      "textOffsetX": -4,
+      "textOffsetY": 0,
+      "alignment": "top_left",
+      "texture": "mainmenu:clearbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "multiplayer"
+      }
+    },
+	"options": {
+      "text": "§l§oOptions...",
+      "posX": 15,
+      "posY": 150,
+      "width": 98,
+      "height": 20,
+      "shadow": true,
+      "normalTextColor": 14737632,
+	  "hoverTextColor": 16777120,
+      "textOffsetX": -12,
+      "textOffsetY": 0,
+      "alignment": "top_left",
+      "texture": "mainmenu:clearbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "options"
+      }
+    },
+    "mods": {
+      "text": "§l§oMod Options...",
+      "posX": 15,
+      "posY": 175,
+      "width": 98,
+      "height": 20,
+      "shadow": true,
+      "normalTextColor": 14737632,
+	  "hoverTextColor": 16777120,
+      "textOffsetX": 0,
+      "textOffsetY": 0,
+      "alignment": "top_left",
+      "texture": "mainmenu:clearbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "mods"
+      }
+    },
+    "language": {
+      "text": "§l§oLanguage Options...",
+      "posX": 15,
+      "posY": 200,
+      "width": 98,
+      "height": 20,
+      "shadow": true,
+      "normalTextColor": 14737632,
+	  "hoverTextColor": 16777120,
+      "textOffsetX": 15,
+      "textOffsetY": 0,
+      "alignment": "top_left",
+      "texture": "mainmenu:clearbutton.png",
+      "action": {
+        "type": "openGui",
+        "gui": "languages"
+      }
+    },
+    "creeperhost_minigames": {
+      "text": "§l§oMinigames",
+      "posX": 15,
+      "posY": 225,
+      "width": 98,
+      "height": 20,
+      "shadow": true,
+      "normalTextColor": 14737632,
+	  "hoverTextColor": 16777120,
+      "textOffsetX": -14,
+      "textOffsetY": 0,
+      "alignment": "top_left",
+      "texture": "mainmenu:clearbutton.png",
+      "wrappedButton": 3735928559
+    },
+    "quit": {
+      "text": "§l§oQuit Game",
+      "posX": 15,
+      "posY": 250,
+      "width": 98,
+      "height": 20,
+      "shadow": true,
+      "normalTextColor": 14737632,
+	  "hoverTextColor": 16777120,
+      "textOffsetX": -14,
+      "textOffsetY": 0,
+      "alignment": "top_left",
+      "texture": "mainmenu:clearbutton.png",
+      "action": {
+        "type": "quit"
+      }
+    }
+  },
+
+  "labels": {
+    "modpack": {
+      "text": "§s§lFrostbyt3 Gaming §aP§br§ce§ds§ee§5n§6t§9s §d§l§oLostCraft §f(Version §k1.0§s)",
+      "posX": 3,
+      "posY": -34,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "minecraft": {
+      "text": "§d§l§oMinecraft #mcversion#",
+      "posX": 3,
+      "posY": -28,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "forge": {
+    	"text": "§d§l§oForge #forgeversion#",
+    	"posX": 3,
+    	"posY": -22,
+    	"fontSize": 0.6,
+    	"color": -1,
+    	"hoverColor": -1,
+    	"alignment": "bottom_left"
+    },
+    "modsloaded": {
+      "text": "§a§l§o#modsloaded# Mods Loaded",
+      "posX": 3,
+      "posY": -16,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "modsactive": {
+      "text": "§a§l§o#modsactive# Mods Active",
+      "posX": 3,
+      "posY": -10,
+      "fontSize": 0.6,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "bottom_left"
+    },
+    "reloadMenu": {
+    	"text": "§l§o<<< RELOAD MENU >>>",
+    	"posX": 3,
+    	"posY": 90,
+    	"fontSize": 0.5,
+    	// "color": 13048410, Pinkish Color
+    	"color": 15157122,
+    	"hoverColor": 6610461,
+    	"hoverText": "§l§o§n<<< RELOAD MENU >>>",
+    	"alignment": "top_left",
+    	"action": {
+        "type": "refresh"
+      }
+    },
+    /*
+    "newsLine1": {
+      "text": "",
+      "posX": 16,
+      "posY": 16,
+      "fontSize": 1.15,
+      "color": 13048410,
+      "hoverColor": 13048410,
+      "alignment": "top_left"
+    },
+    "newsLine2": {
+      "text": "",
+      "posX": 16,
+      "posY": 30,
+      "fontSize": 1.15,
+      "color": 13048410,
+      "hoverColor": 13048410,
+      "alignment": "top_left"
+    },
+    "newsLine3": {
+      "text": "",
+      "posX": 16,
+      "posY": 44,
+      "fontSize": 1.15,
+      "color": 13048410,
+      "hoverColor": 13048410,
+      "alignment": "top_left"
+    },
+    "newsLine4": {
+      "text": "",
+      "hoverText": "",
+      "posX": 16,
+      "posY": 73,
+      "fontSize": 1.25,
+      "color": -1,
+      "hoverColor": -1,
+      "alignment": "top_left"
+    },*/
+    "mojang": {
+      "text": "Copyright Mojang AB",
+      "posX": -75,
+      "posY": -10,
+      "fontSize": 0.7,
+      "color": -1,
+      "hoverColor": -1,
+      "hoverText": "§nCopyright Mojang AB",
+      "alignment": "bottom_right",
+      "action": {
+        "type": "openGui",
+        "gui": "credits"
+      }
+    }
+  },
+
+  "other": {
+    "background": {
+      "image": "mainmenu:background.jpg",
+      "mode": "stretch"
+    }
+  }
+}

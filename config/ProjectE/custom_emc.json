@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "item": "actuallyadditions:item_solidified_experience|0",
+      "emc": 256
+    },
+    {
+      "item": "minecraft:stone_stairs|0",
+      "emc": 16
+    },
+    {
+      "item": "tconstruct:edible|1",
+      "emc": 16
+    },
+    {
+      "item": "enderio:item_material|20",
+      "emc": 256
+    },
+    {
+      "item": "draconicevolution:draconium_capacitor|2",
+      "emc": 0
+    }
+  ]
+}
